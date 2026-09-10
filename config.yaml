@@ -1,0 +1,11 @@
+llm:
+  provider: "deepseek"
+  model: "deepseek-v4-flash"
+  base_url: "https://api.deepseek.com"
+  max_tokens: 1024
+  temperature: 0
+
+data:
+  excel_path: "data/软著项目申报管理系统.xlsx"
+  db_path: "data/projects.duckdb"
+  table_name: "projects"
