@@ -1,8 +1,8 @@
 llm:
   provider: "deepseek"
-  model: "deepseek-v4-flash"
+  model: "deepseek-flash"
   base_url: "https://api.deepseek.com"
-  max_tokens: 1024
+  max_tokens: 4096
   temperature: 0
 
 data:
