@@ -1,6 +1,7 @@
 data:
   excel_path: data/软著项目申报管理系统.xlsx
   db_path: data/projects.duckdb
+  db_url: duckdb:///data/projects.duckdb
   table_name: projects
 display:
   preview_rows: 50
